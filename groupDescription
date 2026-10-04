@@ -14,8 +14,8 @@
 | Shiwovanhu Iitula      | 224079255       | Budget Management                            |
 | Indongo Lianna         | 225014416       | Supplier Management                          |
 | Joel Lydia             | 224091417       | Employee Management                          |
-| Honest Haimbangu       | 224073370       | Testing, Documentation & Git Coordination    |
-| Ndidalela Rahya Sh     | 223109983       | Functions, Integration & Validation          |
+| Honest Haimbangu       | 224073370       | Functions, Integration & Validation          |
+| Ndidalela Rahya Sh     | 223109983       | Testing, Documentation & Git Coordination    |
 
 ## Project Description
 
@@ -91,22 +91,22 @@ to exit.
 
 ## Individual Responsibilities
 
-- **Victoria Kambonde** – Led testing of the integrated system,
-  authored `README.md` and the technical report, and coordinated the
-  GitHub repository and commit history.
+- **Victoria Kambonde** – Designed and implemented `reports.c`/`.h`: the
+  employee, budget, supplier and asset summary reports.
 - **Shigwedha Evelina** – Designed and implemented `assets.c`/`.h`: the
   municipal asset register and type-based search.
 - **Shiwovanhu Iitula** – Designed and implemented `budget.c`/`.h`:
   recording departmental budgets/expenditure and flagging over-budget
 - **Indongo Lianna** – Designed and implemented `suppliers.c`/`.h`:
   adding, displaying and searching suppliers by name or town.
-- **Joel Lydia** – Designed and implemented `reports.c`/`.h`: the
-  employee, budget, supplier and asset summary reports.
+- **Joel Lydia** – Designed and implemented `employees.c`/`.h`:
+  adding, displaying, searching and calculating salaries for employees.
 - **Honest Haimbangu** – Implemented `utils.c`/`.h` (shared input
   validation helpers) and `main.c`, integrating every module's menu
   into the top-level Main Menu.
-- **Ndidalela Rahya Sh** – Designed and implemented `employees.c`/`.h`:
-  adding, displaying, searching and calculating salaries for employees.
+- **Ndidalela Rahya Sh** – Led testing of the integrated system,
+  authored `README.md` and the technical report, and coordinated the
+  GitHub repository and commit history.
 
 This maps directly onto the 7-role breakdown recommended in the
 assignment brief (Section 12).
@@ -117,3 +117,4 @@ This foundation system stores data in memory only (arrays), with no file
 or database persistence. Project B is expected to extend this system
 (e.g. with file I/O, more advanced data structures, and additional
 modules) rather than replace it.
+
