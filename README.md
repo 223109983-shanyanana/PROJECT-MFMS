@@ -38,49 +38,6 @@ System Features
   empty names are rejected, and invalid menu choices are handled without
   crashing the program.
 
-File Structure
-
-```
-MFMS/
-├── main.c          Main menu and program entry point
-├── employees.c/.h   Employee Management module
-├── budget.c/.h      Budget Management module
-├── suppliers.c/.h   Supplier Management module
-├── assets.c/.h      Asset Management module
-├── reports.c/.h     Reports module (reads data via getters from the other modules)
-├── utils.c/.h       Shared input-reading and validation helpers
-└── README.md
-
-Each module keeps its own data (as a `static` array local to its `.c`
-file) and exposes it to the rest of the program only through getter
-functions (e.g. `getEmployeeCount()`, `getEmployeeAt()`), so `reports.c`
-can build cross-module reports without any module needing global
-variables.
-
-## Compilation Instructions
-
-From inside the `MFMS/` folder, using GCC:
-
-```bash
-gcc -std=c99 -Wall -Wextra -o mfms main.c employees.c budget.c suppliers.c assets.c reports.c utils.c
-```
-
-This has been compiled and tested with GCC (Ubuntu 13.3.0) with zero
-warnings under `-Wall -Wextra`.
-
-How to Run
-
-```bash
-./mfms
-```
-
-On Windows (e.g. Visual Studio Code with MinGW), compile the same way and
-run `mfms.exe`.
-
-Use the on-screen menu to navigate between Employee Management, Budget
-Management, Supplier Management, Asset Management and Reports. Enter `0`
-from any sub-menu to return to the main menu, and `6` from the main menu
-to exit.
 
 Individual Responsibilities
 
