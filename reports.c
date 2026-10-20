@@ -99,8 +99,8 @@ void assetReport(void) {
     printf("Total Asset Value: N$%.2f\n\n", totalValue);
     for (int i = 0; i < count; i++) {
         Asset a = getAssetAt(i);
-        printf("ID: %-4d Name: %-18s Type: %-12s Value: N$%.2f\n",
-               a.id, a.name, a.type, a.purchaseValue);
+        printf("ID: %-10s Name: %-18s Type: %-12s Value: N$%.2f\n",
+               a.assetID, a.assetName, a.assetType, a.purchaseValue);
     }
 }
 
