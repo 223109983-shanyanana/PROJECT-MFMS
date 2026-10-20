@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "suppliers.h"
+#include "supplier.h"
 #include "utils.h"
 
 static Supplier suppliers[MAX_SUPPLIERS];
