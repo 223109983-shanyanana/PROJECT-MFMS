@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "employees.h"
 #include "budget.h"
-#include "suppliers.h"
+#include "supplier.h"
 #include "assets.h"
 #include "reports.h"
 #include "utils.h"
