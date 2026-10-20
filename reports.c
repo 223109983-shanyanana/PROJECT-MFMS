@@ -2,7 +2,7 @@
 #include "reports.h"
 #include "employees.h"
 #include "budget.h"
-#include "suppliers.h"
+#include "supplier.h"
 #include "assets.h"
 #include "utils.h"
 
