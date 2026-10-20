@@ -1,5 +1,5 @@
-#ifndef SUPPLIERS_H
-#define SUPPLIERS_H
+#ifndef SUPPLIER_H
+#define SUPPLIER_H
 
 #define MAX_SUPPLIERS 50
 #define SUP_LEN 50
